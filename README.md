@@ -11,7 +11,7 @@ Coffee Machine Program Requirements
   For maintainers of the coffee machine, they can use “off” as the secret word to turn off
   the machine. Your code should end execution when this happens.
 
-#3. Print report.
+# 3. Print report.
   a. When the user enters “report” to the prompt, a report should be generated that shows
   the current resource values.
   e.g.
@@ -20,7 +20,7 @@ Coffee Machine Program Requirements
   Coffee: 76g
   Money: $2.5
 
-#4. Check if resources are sufficient
+# 4. Check if resources are sufficient
   a. When the user chooses a drink, the program should check if there are enough
   resources to make that drink.
   
@@ -29,7 +29,7 @@ Coffee Machine Program Requirements
   
   c. The same should happen if another resource is depleted, e.g. milk or coffee.
 
-#5. Process coins.
+# 5. Process coins.
   a. If there are sufficient resources to make the drink selected, then the program should
   prompt the user to insert coins.
   
@@ -38,7 +38,7 @@ Coffee Machine Program Requirements
   c. Calculate the monetary value of the coins inserted. E.g. 1 quarter, 2 dimes, 1 nickel, 2
   pennies = 0.25 + 0.1 x 2 + 0.05 + 0.01 x 2 = $0.52
 
-#6. Check if transaction was successful
+# 6. Check if transaction was successful
   a. Check that the user has inserted enough money to purchase the drink they selected.
   E.g Latte cost $2.50, but they only inserted $0.52 then after counting the coins the
   program should say “Sorry that's not enough money. Money refunded.”.
@@ -54,7 +54,7 @@ Coffee Machine Program Requirements
   E.g. “Here is $2.45 dollars in change.” The change should be rounded to 2 decimal
   places.
 
-#7. MAKE COFFEE
+# 7. MAKE COFFEE
   a. If the transaction is successful and there are enough resources to make the drink the
   user selected, then the ingredients to make the drink should be deducted from the
   coffee machine resources.
